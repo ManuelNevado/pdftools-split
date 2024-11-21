@@ -1,0 +1,3 @@
+/workspaces/PruebaC/PdfTools_Split_C/CMakeFiles/pdftoolssplit.dir
+/workspaces/PruebaC/PdfTools_Split_C/CMakeFiles/edit_cache.dir
+/workspaces/PruebaC/PdfTools_Split_C/CMakeFiles/rebuild_cache.dir

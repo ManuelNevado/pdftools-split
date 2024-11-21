@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/pdftoolssplit.dir/pdftoolssplit.c.o -o pdftoolssplit  -Wl,-rpath,/workspaces/PruebaC/PdfTools_Split_C/lib/linux-x64 lib/linux-x64/libPdfToolsSdk.so 

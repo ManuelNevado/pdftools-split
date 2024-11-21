@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>cd6daffe-ce16-43f7-a46c-dd9d6161c935</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Win32">
+      <UniqueIdentifier>9801ddbb-c6a0-4b0b-820a-1af659223fbe</UniqueIdentifier>
+      <Extensions>dll</Extensions>
+    </Filter>
+    <Filter Include="x64">
+      <UniqueIdentifier>72e3f6b4-4dd5-410d-b0f9-6de999ef74ba</UniqueIdentifier>
+      <Extensions>dll</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pdftoolssplit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ContentWithTargetPath Include="lib\win-x86\PdfToolsSdk.dll">
+      <Filter>Win32</Filter>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="lib\win-x64\PdfToolsSdk.dll">
+      <Filter>x64</Filter>
+    </ContentWithTargetPath>
+  </ItemGroup>
+</Project>
